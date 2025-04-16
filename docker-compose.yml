@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  sb-app:
+    container_name: web-service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8090:8090"
