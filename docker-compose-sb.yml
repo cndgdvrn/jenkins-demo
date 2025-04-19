@@ -5,6 +5,6 @@ services:
     container_name: web-service
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile-Jenkins
     ports:
       - "8090:8090"
