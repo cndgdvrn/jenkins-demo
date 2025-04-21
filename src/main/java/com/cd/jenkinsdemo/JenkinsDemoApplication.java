@@ -17,7 +17,7 @@ public class JenkinsDemoApplication {
 
 	@GetMapping
 	public String hello() {
-		return "Hello Jenkins!";
+		return "Hello Jenkins! triggered";
 	}
 
 }
